@@ -47,8 +47,8 @@ for i in range(sheet.nrows):
 		continue
 		
 	print(i+1," of ",sheet.nrows," Completed")
+
 #VirusTotal Public API allows only 4 requests per minute
-	
 	time.sleep(16)
 
 wbwrite.save('HashConvertedOutput.xls')
